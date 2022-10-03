@@ -1,0 +1,44 @@
+@mixin flex($dis, $diretion, $corte, $just, $aling) {
+    display: $dis;
+    flex-flow: $diretion $corte;
+    justify-content: $just;
+    align-items: $aling;
+}
+
+.skills {
+    @include flex(flex, column, nowrap, center, center);
+    margin: auto;
+    height: 100vh;
+    width: 60em;
+    gap: 3em;
+    &__type {
+        @include flex(flex, column, nowrap, center, center);
+        text-align: center;
+        gap: 1em;
+        h2{
+            font-family: var(--tipo-secundaria);
+        }
+    }
+
+    ul {
+        @include flex(flex, row, nowrap, center, center);
+        gap: 1.8em;
+        li{
+            @include flex(flex, column, nowrap, center, center);
+            width: 3.5em;
+            color: var(--azul);
+        }
+    }  
+}
+
+
+@media screen and (max-width:1280px){
+    .skills{
+        max-width: 40em;
+    }
+}
+@media screen and (max-width:960px) {
+    .skills{
+        width: 100%;
+    }
+}

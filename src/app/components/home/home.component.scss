@@ -1,0 +1,60 @@
+@mixin flex($dis, $diretion, $corte, $just, $aling) {
+    display: $dis;
+    flex-flow: $diretion $corte;
+    justify-content: $just;
+    align-items: $aling;
+}
+
+.home {
+    @include flex(flex, column, nowrap, center, flex-start);
+    margin: auto;
+    height: 100vh;
+    width: 60em;
+    gap: .4em;
+    &__h1 {
+        font-size: 5em;
+        font-family: var(--tipo-secundaria);
+        line-height: normal;
+        color: var(--azul);
+
+    }
+    &__p {
+        margin: .5em 0;
+    }
+    span{
+        color: var(--azul);
+    }
+}
+
+
+@media screen and (max-width:1280px){
+    .home{
+        max-width: 40em;
+    }
+}
+@media screen and (max-width:960px){
+
+    .home{  
+        width: 90%;
+        &__h1 {
+            font-size: 4.7em;
+        }
+        &__p {
+            margin: 0em; 
+        }
+    }
+}
+@media screen and (max-width:415px){
+    .home{  
+        &__h1 {
+            font-size: 3.9em;
+        }
+    }
+}
+@media screen and (max-width:280px){
+    .home{  
+        &__h1 {
+            font-size: 2.9em;
+        }
+    }
+}

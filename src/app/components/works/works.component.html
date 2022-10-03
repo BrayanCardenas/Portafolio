@@ -1,0 +1,26 @@
+<section class="works">
+    <div class="works__types">
+        <h2 class="works__title">Todos</h2>
+        <h2 class="works__title">Landing Page</h2>
+        <h2 class="works__title">Api</h2>
+    </div>
+    <div class="works__group scroll">
+
+        <div class="group__work"
+             *ngFor="let work of works">
+            <div class="group__position">
+                <img src="{{work.img}}" alt="{{work.name}}">
+
+                <div class="group__button hover">
+                    <a href="{{work.url}}" target="_blank">Web</a>
+                    <a  routerLink="/work-info">Info</a>
+                </div>
+
+            </div>
+
+            <h2 class="group__title">{{work.name}}
+            </h2>
+        </div>
+    </div>
+
+</section>
