@@ -31,4 +31,8 @@ export class NavComponent implements OnInit {
 
     this.active = !this.active 
   }
+
+  openLink(){
+    window.open("hhttps://portafolio-xi-three.vercel.app//assets/document/Hoja-de-Vida.pdf")
+  }
 }
