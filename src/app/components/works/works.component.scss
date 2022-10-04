@@ -12,7 +12,7 @@
     max-width: 60em;
     text-align: center;
     &__types {
-        @include flex(flex, row, nowrap, space-between, center);
+        text-align: center;
         width: 23em;
         margin-bottom: 4em;
     }
