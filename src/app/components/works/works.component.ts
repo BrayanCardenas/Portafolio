@@ -13,35 +13,40 @@ export class WorksComponent implements OnInit {
       img: '../../../assets/img/works/mundano.jpg',
       description: 'Aqui va una descripción del proyecto esto es para rellenar el campo vacio que hay para que se veamas organico y compleo al finalizar el mockup',
       tecnologia: [ 'HTML', 'CSS', 'JavaScript'],
-      url: 'https://brayancardenas.github.io/mundano/'
+      url: 'https://brayancardenas.github.io/mundano/',
+      github: 'https://github.com/BrayanCardenas/mundano'
     },
     {
       name: 'Cafe',
       img: '../../../assets/img/works/cafe.jpg',
       description: 'Aqui va una descripción del proyecto esto es para rellenar el campo vacio que hay para que se veamas organico y compleo al finalizar el mockup',
       tecnologia: [ 'HTML', 'Sass', 'JavaScript'],
-      url: 'https://brayancardenas.github.io/Cafe/'
+      url: 'https://brayancardenas.github.io/Cafe/',
+      github: 'https://github.com/BrayanCardenas/Cafe'
     },
     {
-      name: 'Restaurante',
+      name: 'Weiddgan',
       img: '../../../assets/img/works/weiddgan.png',
       description: 'Aqui va una descripción del proyecto esto es para rellenar el campo vacio que hay para que se veamas organico y compleo al finalizar el mockup',
       tecnologia: [ 'HTML', 'CSS', 'Bootstrap','JavaScript'],
-      url: 'https://brayancardenas.github.io/Weiddgan'
+      url: 'https://brayancardenas.github.io/Weiddgan',
+      github: 'https://github.com/BrayanCardenas/Weiddgan'
     },
     {
       name: 'Agenda',
       img: '../../../assets/img/works/agenda.jpg',
       description: 'Aqui va una descripción del proyecto esto es para rellenar el campo vacio que hay para que se veamas organico y compleo al finalizar el mockup',
       tecnologia: [ 'HTML', 'CSS', 'JavaScript'],
-      url: 'https://brayancardenas.github.io/Agenda/'
+      url: 'https://brayancardenas.github.io/Agenda/',
+      github: 'https://github.com/BrayanCardenas/Agenda'
     },
     {
       name: 'Carrito',
       img: '../../../assets/img/works/carrito-compras.jpg',
       description: 'Aqui va una descripción del proyecto esto es para rellenar el campo vacio que hay para que se veamas organico y compleo al finalizar el mockup',
       tecnologia: [ 'HTML', 'CSS', 'JavaScript'],
-      url: 'https://brayancardenas.github.io/Carrito_Compras/'
+      url: 'https://brayancardenas.github.io/Carrito_Compras/',
+      github: 'https://github.com/BrayanCardenas/Carrito_Compras'
     },
   ]
 
