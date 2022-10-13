@@ -20,7 +20,7 @@ import { WorkInfoComponent } from './components/work-info/work-info.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

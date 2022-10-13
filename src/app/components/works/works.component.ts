@@ -48,6 +48,14 @@ export class WorksComponent implements OnInit {
       url: 'https://brayancardenas.github.io/Carrito_Compras/',
       github: 'https://github.com/BrayanCardenas/Carrito_Compras'
     },
+    {
+      name: 'Api BreakingBad',
+      img: '../../../assets/img/works/api-brakingBad.jpg',
+      description: 'Aqui va una descripción del proyecto esto es para rellenar el campo vacio que hay para que se veamas organico y compleo al finalizar el mockup',
+      tecnologia: [ 'HTML', 'Bootstrap', 'TypeScript'],
+      url: 'https://apibrakinbad.vercel.app/',
+      github: 'https://github.com/BrayanCardenas/Api-BrakinBad'
+    }
   ]
 
 
