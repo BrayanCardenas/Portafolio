@@ -31,15 +31,15 @@ export class WorksComponent implements OnInit {
       tecnologia: [ 'HTML', 'CSS', 'Bootstrap','JavaScript'],
       url: 'https://brayancardenas.github.io/Weiddgan',
       github: 'https://github.com/BrayanCardenas/Weiddgan'
-    },
-    {
+    }/*,
+     {
       name: 'Agenda',
       img: '../../../assets/img/works/agenda.jpg',
       description: 'Aqui va una descripción del proyecto esto es para rellenar el campo vacio que hay para que se veamas organico y compleo al finalizar el mockup',
       tecnologia: [ 'HTML', 'CSS', 'JavaScript'],
       url: 'https://brayancardenas.github.io/Agenda/',
       github: 'https://github.com/BrayanCardenas/Agenda'
-    },
+    } */,
     {
       name: 'Carrito',
       img: '../../../assets/img/works/carrito-compras.jpg',
